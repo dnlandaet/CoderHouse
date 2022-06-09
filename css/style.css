@@ -4,10 +4,16 @@
 }
 
 nav {
-    background-color: black;
     padding-top: 0px;
     padding-bottom: 50px;
     padding-right: 0px;
+}
+body{
+    background-color: black;
+}
+header{
+    background: rgb(0,0,0);
+    background: linear-gradient(58deg, rgba(0,0,0,1) 0%, rgba(40,58,78,1) 48%, rgba(159,195,203,1) 100%);
 }
 
 li {
@@ -39,11 +45,6 @@ a {
 }
 
 
-main {
-    background-color: black;
-
-}
-
 p {
     color: white;
     padding-top: 20px;
@@ -64,6 +65,7 @@ h2 {
 .parrafo-ml{
     color: black;   
 }
+
 
 h1 {
     color: black;
@@ -118,7 +120,10 @@ body{
     display: flex;
     justify-content: space-around;
     margin-right: auto;
+   
 }
+
+
 
 .bcontainer{
     width: 10%;
@@ -179,6 +184,20 @@ body{
 }
 .menu-burger{
     display: none;
+}
+
+.b-click{
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 600px)
