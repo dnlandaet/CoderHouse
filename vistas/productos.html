@@ -1,58 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Productos</title>
 </head>
+
 <body>
     <header>
-        <a href="../index.html">
-            <img class="logo" src="../assets/Inicio.png" alt=""></a>
-        <nav>
-            <ul>
-                <li><a href="./productos.html">PRODUCTOS</a></li>
-                <li><a href="./recomendaciones.html">RECOMENDACIONES</a></li>
-                <li><a href="./mundo_landet.html">MUNDO LANDÉT</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
-            </ul>  
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img class="logo" src="../assets/Inicio.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="recomendaciones.html">Recomendaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mundo_landet.html">Mundo Landét</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
+
     <main>
-        <div>
-            <img class="banner" src="../assets/productos.jpg" alt="">
-        </div>
-        <div>
-            <p class="parrafo">Nuestros productos están certificados por el Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA) como productos de alta calidad. Los ingredientes provienen de la extracción natural de la naturaleza para crear una experiencia exótica, vivaz y natural, donde incluso la fragancia de nuestros productos lo transportará a los rincones más increíbles de nuestro planeta. 
-            </p>
-        </div>
-        <section class="sec">
-            <div class="divcard">
-                <div class="cardtitle">
-                    <h5>Subtitle</h5>
+        <section>
+            <img src="../assets/productos.jpg" class="img-fluid img-banner" alt="Responsive image">
+        </section>
+
+        <section class="container-card tarjetas">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="../assets/prod1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-dark">Comprar</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="cardcontent">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, illum ratione eius aspernatur
-                        dolorem nulla aliquid facere libero magnam ut error odit voluptates dicta ipsam iste beatae sed
-                        quisquam maiores.</p>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="../assets/prod2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-dark">Comprar</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="cardimg"> <img src="../assets/producto1.jpg" alt=""></div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="../assets/prod3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-dark">Comprar</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="divcard">
-                <div class="cardtitle">
-                    <h5>Subtitle</h5>
-                </div>
-                <div class="cardcontent">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, itaque quia ab porro odit
-                        atque animi aut ipsam delectus ratione laborum unde, labore natus voluptates sequi? Dolorum
-                        nesciunt eveniet explicabo.</p>
-                </div>
-                <div class="cardimg"><img src="../assets/producto2.jpg" alt=""></div>
-            </div>
+
         </section>
     </main>
-    <footer><h4>Copyright © 2022 Landét</h4></footer>
+    <footer>
+        <h4>Copyright © 2022 Landét</h4>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
