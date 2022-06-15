@@ -8,6 +8,7 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../css/style.css">
     <title>Productos</title>
 </head>
@@ -49,7 +50,7 @@
         <section class="container-card tarjetas">
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="card">
+                    <div data-aos="fade-left" class="card prod-card">
                         <img src="../assets/prod1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -60,7 +61,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="card">
+                    <div data-aos="zoom-in" class="card prod-card">
                         <img src="../assets/prod2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -71,8 +72,43 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="card">
+                    <div data-aos="fade-right" class="card prod-card">
                         <img src="../assets/prod3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-dark">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div data-aos="fade-up-right" class="card prod-card">
+                        <img src="../assets/prod4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-dark">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div data-aos="fade-up" class="card prod-card">
+                        <img src="../assets/prod5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-dark">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div data-aos="fade-up-left" class="card prod-card">
+                        <img src="../assets/prod6.jpg   " class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -88,10 +124,17 @@
     <footer>
         <h4>Copyright © 2022 Landét</h4>
     </footer>
-    <!-- JavaScript Bundle with Popper -->
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+          });
+        </script
 </body>
 
 </html>
