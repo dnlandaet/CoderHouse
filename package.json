@@ -1,0 +1,25 @@
+{
+  "name": "coderhouse",
+  "version": "1.0.0",
+  "description": "Paquete de SASS para Proyecto CoderHouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnlandaet/CoderHouse.git"
+  },
+  "author": "Daniel Landaeta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnlandaet/CoderHouse/issues"
+  },
+  "homepage": "https://github.com/dnlandaet/CoderHouse#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
