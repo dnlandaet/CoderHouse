@@ -1,2 +1,6 @@
 "build-css": "node-sass --include-path scss sass/main.scss css/style.css",
 "watch-css": "nodemon -e scss -x \"npm run build-css\""
+Se declara un mapa y se utiliza map-get.
+Se extiende una clase base y se modifica.
+Se genera un mixin para reautilizar el codigo.
+Se añade keywords, descripcion, titulos y encabezados a todas las paginas

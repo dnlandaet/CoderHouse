@@ -1,0 +1,12 @@
+@mixin box {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@mixin second_color {
+    color: azure;
+    
+}

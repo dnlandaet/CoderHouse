@@ -1,21 +1,21 @@
-body {
-  background: black; }
-
-h1, h2 {
-  color: azure;
-  text-align: center; }
-
-.prod-card h5 {
-  color: black;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
-
-.prod-card p {
-  color: black;
-  font-style: italic; }
-
 * {
   margin: 0;
   padding: 0; }
+
+.prod-card h5 {
+  color: #000000;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.prod-card p {
+  color: #000000;
+  font-style: italic; }
+
+body {
+  background: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.main-title2, .padding_contact {
+  color: #000000; }
 
 nav {
   padding-top: 0px;
@@ -69,7 +69,7 @@ a {
   margin-left: 50px;
   color: azure; }
 
-.main-title2 {
+.main-title2, .padding_contact {
   color: azure; }
 
 .parrafo-ml {
@@ -79,8 +79,7 @@ a {
   text-align: center;
   font-size: 20px;
   padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: azure; }
+  padding-bottom: 50px; }
 
 footer {
   background-color: azure;
@@ -104,9 +103,6 @@ h4 {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 20px; }
-
-body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
 .container-fluid {
   text-align: center; }
