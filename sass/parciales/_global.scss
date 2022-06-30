@@ -76,26 +76,6 @@ a{
 }
 
 
-.main-title{
-    background-color: black;
-    text-align: center;
-    margin-top: 20px;
-}
-.main-parr{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-right: 50px;
-    margin-left: 50px;
-    color: azure;
-}
-.main-title2{
-    @include second_color;
-}
-
-.parrafo-ml{
-    color: black;   
-}
-
 
 .padding_contact {
     text-align: center;
@@ -125,8 +105,16 @@ h4 {
     color: black;
     padding-top: 20px;
     padding-bottom: 50px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: justify;
+    justify-content: center;
+
+}
+h2,h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .youtube {
@@ -145,4 +133,20 @@ h4 {
     display: flex;
     justify-content: space-around;
     margin-right: auto;
+}
+
+.title_prod{
+    color: azure;
+}
+
+.form_contact{
+    justify-content: center;
+}
+.form-group{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.testimonios{
+    width: 100%;
 }

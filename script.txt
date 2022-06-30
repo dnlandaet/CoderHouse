@@ -4,3 +4,7 @@ Se declara un mapa y se utiliza map-get.
 Se extiende una clase base y se modifica.
 Se genera un mixin para reautilizar el codigo.
 Se añade keywords, descripcion, titulos y encabezados a todas las paginas
+
+**Tercera entrega del proyecto final:
+
+Se añade más contenido, se corrigen detalles que indicó el tutor.
