@@ -1,7 +1,7 @@
 //Variables
-$color-principal: black;
-$color-letra: azure;
 
+$fuente-general: Arial, sans-serif;
+;
 
     * {
         margin: 0;
@@ -11,7 +11,7 @@ $color-letra: azure;
 .prod-card{
     h5{
         color: map-get($colores,"black");
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: $fuente-general
     }
     p{
         color: map-get($colores,"black");
@@ -20,8 +20,9 @@ $color-letra: azure;
 }
 
 body {
-    background: $color-principal;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+    background: map-get($colores,"black");
+    font-family: $fuente-general
+}
 
 .main-title2{
     color: map-get($colores, "black")
@@ -61,7 +62,7 @@ ul {
 }
 
 a{
-    color: azure;
+    color: map-get($colores,"white") !important;
 }
 
 .logo {
@@ -75,7 +76,10 @@ a{
     width: 100%;
 }
 
-
+.contact-label{
+    color: map-get($colores, "white");
+    padding-bottom: 3%;
+}
 
 .padding_contact {
     text-align: center;
@@ -86,23 +90,22 @@ a{
 }
 
 footer {
-    background-color: azure;
+    background-color: map-get($colores,"white");
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
     width: 100%;
-
 }
 
 h4 {
-    color: black;
+    color: map-get($colores,"black");
 }
 
 
 
 .parrafo {
-    background-color: azure;
-    color: black;
+    background-color: map-get($colores,"white");
+    color: map-get($colores,"black");
     padding-top: 20px;
     padding-bottom: 50px;
     padding-right: 100px;
@@ -136,7 +139,7 @@ h2,h1{
 }
 
 .title_prod{
-    color: azure;
+    color: map-get($colores,"white");
 }
 
 .form_contact{

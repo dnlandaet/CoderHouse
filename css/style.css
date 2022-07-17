@@ -3,19 +3,19 @@
   padding: 0; }
 
 .prod-card h5 {
-  color: #000000;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+  color: #090808;
+  font-family: Arial, sans-serif; }
 
 .prod-card p {
-  color: #000000;
+  color: #090808;
   font-style: italic; }
 
 body {
-  background: black;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+  background: #090808;
+  font-family: Arial, sans-serif; }
 
 .main-title2, .padding_contact {
-  color: #000000; }
+  color: #090808; }
 
 nav {
   padding-top: 0px;
@@ -46,7 +46,7 @@ ul {
   margin-bottom: 30px; }
 
 a {
-  color: azure; }
+  color: #fffff2 !important; }
 
 .logo {
   margin-top: 0px;
@@ -57,6 +57,10 @@ a {
 .banner {
   width: 100%; }
 
+.contact-label {
+  color: #fffff2;
+  padding-bottom: 3%; }
+
 .padding_contact {
   text-align: center;
   font-size: 20px;
@@ -64,18 +68,18 @@ a {
   padding-bottom: 50px; }
 
 footer {
-  background-color: azure;
+  background-color: #fffff2;
   text-align: center;
   padding-bottom: 20px;
   padding-top: 20px;
   width: 100%; }
 
 h4 {
-  color: black; }
+  color: #090808; }
 
 .parrafo {
-  background-color: azure;
-  color: black;
+  background-color: #fffff2;
+  color: #090808;
   padding-top: 20px;
   padding-bottom: 50px;
   padding-right: 100px;
@@ -102,7 +106,7 @@ h2, h1 {
   margin-right: auto; }
 
 .title_prod {
-  color: azure; }
+  color: #fffff2; }
 
 .form_contact {
   justify-content: center; }
